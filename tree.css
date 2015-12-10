@@ -60,3 +60,6 @@ textarea {
 		line-height: 2.2em;
 	}
 }
+#content:hover {
+		background: #ff9;
+}

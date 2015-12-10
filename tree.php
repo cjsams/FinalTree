@@ -13,7 +13,7 @@
 
       if (isset($_GET['content'])) {
         $content = $_GET['content'];
-        file_put_contents('tree.txt', $content);
+        file_put_contents(string 'tree.txt', $content);
     }
 
     if (file_exists('tree.txt')) {
@@ -25,7 +25,7 @@
     /*$safe_content = htmlentities($content);*/
     ?>
 
-  <form id"treetop" action="tree.php" method="post">
+  <form action="tree.php">
 
     <textarea name="content" rows="8" cols="80"></textarea>
     <input type="submit" value="Save">
