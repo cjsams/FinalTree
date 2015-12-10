@@ -23,6 +23,16 @@ textarea {
 #trunk2 {
 	width: 25%;
 	text-align: center;
+	margin-left: 37.5%;
+}
+#leaf2 {
+	width: 100%;
+	text-align: center;
+	margin-left: 50%;
+}
+#root2 {
+	width: 75%;
+	text-align: center;
 	margin-left: 50%;
 }
 

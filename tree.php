@@ -47,7 +47,7 @@
     <p id="leaf">
         Enter Leaf Content
       </p>
-    <textarea name="content" rows="8" cols="80"></textarea>
+    <textarea name="content" rows="35" cols="80"></textarea>
     <input type="submit" value="Save">
     <?php
 
@@ -59,7 +59,7 @@
       <p id="trunk">
           Enter Trunk Content
         </p>
-      <textarea name="content2" rows="8" cols="80"></textarea>
+      <textarea name="content2" rows="20" cols="80"></textarea>
       <input type="submit" value="Save">
       <?php
 
@@ -71,7 +71,7 @@
       <p id="root">
           Enter Root Content
         </p>
-      <textarea name="content3" rows="8" cols="80"></textarea>
+      <textarea name="content3" rows="45" cols="80"></textarea>
       <input type="submit" value="Save">
       <?php
 
