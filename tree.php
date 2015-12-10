@@ -56,28 +56,43 @@
 
     ?>
     </form>
+    <form action="tree.php">
+      <p id="trunk">
+          Enter Trunk Content
+        </p>
+      <textarea name="content2" rows="8" cols="80"></textarea>
+      <input type="submit" value="Save">
+      <?php
 
-  <div id="content">
+      $safe_content2 = htmlentities($content2);
+
+      ?>
+      </form>
+    <form action="tree.php">
+      <p id="root">
+          Enter Root Content
+        </p>
+      <textarea name="content3" rows="8" cols="80"></textarea>
+      <input type="submit" value="Save">
+      <?php
+
+      $safe_content3 = htmlentities($content3);
+
+      ?>
+      </form>
+
+  <div id="leaf">
     <?php echo $safe_content; ?>
   </div>
 
-  <form action="tree.php">
-    <p id="trunk">
-        Enter Trunk Content
-      </p>
-    <textarea name="content2" rows="8" cols="80"></textarea>
-    <script src="tree.js"></script>
-    <input type="submit" value="Save">
-    <?php
-
-    $safe_content2 = htmlentities($content2);
-
-    ?>
-    </form>
-
-  <div id="content2">
+  <div id="trunk">
     <?php echo $safe_content2; ?>
   </div>
+
+  <div id="root">
+    <?php echo $safe_content3; ?>
+  </div>
+
 
 
   </body>
