@@ -1,4 +1,4 @@
 
-$('#content').click(function() {
+//$('#content').click(function() {
 
-});
+//});
