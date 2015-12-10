@@ -22,11 +22,13 @@ textarea {
     border: none;
 	}
 #trunk2 {
+	font-weight: 900;
 	width: 25%;
 	text-align: center;
 	margin-left: 37.5%;
 }
 #leaf2 {
+	font-weight: bold;
 	width: 75%;
 	text-align: center;
 	margin-left: 12.5%;
