@@ -43,6 +43,19 @@
     }
     ?>
 
+
+  <div id="leaf2">
+    <?php echo $safe_content; ?>
+  </div>
+
+  <div id="trunk2">
+    <?php echo $safe_content2; ?>
+  </div>
+
+  <div id="root2">
+    <?php echo $safe_content3; ?>
+  </div>
+
   <form action="tree.php">
     <p id="leaf">
         Enter Leaf Content
@@ -79,18 +92,6 @@
 
       ?>
       </form>
-
-  <div id="leaf2">
-    <?php echo $safe_content; ?>
-  </div>
-
-  <div id="trunk2">
-    <?php echo $safe_content2; ?>
-  </div>
-
-  <div id="root2">
-    <?php echo $safe_content3; ?>
-  </div>
 
     <script src="tree.js"></script>
 
