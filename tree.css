@@ -10,6 +10,11 @@ html {
 }
 
 /* Helvetica */
+title{
+	font-family: helvetica, sans-serif;
+	font-size: 200%;
+  text-align: center;
+}
 body {
 	font-family: helvetica, sans-serif;
   text-align: center;
