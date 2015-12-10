@@ -80,15 +80,15 @@
       ?>
       </form>
 
-  <div id="leaf">
+  <div id="leaf2">
     <?php echo $safe_content; ?>
   </div>
 
-  <div id="trunk">
+  <div id="trunk2">
     <?php echo $safe_content2; ?>
   </div>
 
-  <div id="root">
+  <div id="root2">
     <?php echo $safe_content3; ?>
   </div>
 
