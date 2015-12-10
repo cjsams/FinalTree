@@ -11,15 +11,29 @@
 
       <?php
 
-      if (isset($_GET['content'])) {
+      if (isset($_GET['content'], $_GET['content2'], $_GET['content3'])) {
         $content = $_GET['content'];
+        $content2 = $_GET['content2'];
+        $content3 = $_GET['content3'];
         file_put_contents('tree.txt', $content, FILE_APPEND);
+        file_put_contents('trunk.txt', $content2, FILE_APPEND);
+        file_put_contents('root.txt', $content3, FILE_APPEND);
     }
 
     if (file_exists('tree.txt')) {
         $content = file_get_contents('tree.txt');
     } else {
         $content = '(no content)';
+    }
+    if (file_exists('trunk.txt')) {
+        $content2 = file_get_contents('trunk.txt');
+    } else {
+        $content2 = '(no content)';
+    }
+    if (file_exists('root.txt')) {
+        $content3 = file_get_contents('root.txt');
+    } else {
+        $content3 = '(no content)';
     }
     ?>
 
