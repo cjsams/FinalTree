@@ -26,7 +26,7 @@
     echo $safe_content;
     ?>
 
-  <form id"treetop" action="tree.php" class="hidden">
+  <form id"treetop" action="tree.php" method="post">
 
     <textarea name="content" rows="8" cols="80"></textarea>
     <input type="submit" value="Save">
