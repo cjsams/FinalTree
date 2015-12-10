@@ -2,6 +2,7 @@
 /* Border box by default */
 html {
 	box-sizing: border-box;
+	background-color: lightblue;
 }
 
 *, *:before, *:after {
