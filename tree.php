@@ -11,13 +11,9 @@
 
       <?php
 
-      if (isset($_GET['content'], $_GET['content2'], $_GET['content3'])) {
+      if (isset($_GET['content'])) {
         $content = $_GET['content'];
-        $content2 = $_GET['content2'];
-        $content3 = $_GET['content3'];
         file_put_contents('tree.txt', $content, FILE_APPEND);
-        file_put_contents('trunk.txt', $content2, FILE_APPEND);
-        file_put_contents('root.txt', $content3, FILE_APPEND);
     }
 
     if (file_exists('tree.txt')) {
@@ -25,10 +21,20 @@
     } else {
         $content = '(no content)';
     }
+
+    if (isset($_GET['content2'])) {
+      $content2 = $_GET['content2'];
+      file_put_contents('trunk.txt', $content2, FILE_APPEND);
+    }
     if (file_exists('trunk.txt')) {
         $content2 = file_get_contents('trunk.txt');
     } else {
         $content2 = '(no content)';
+    }
+
+    if (isset($_GET['content3'])) {
+      $content3 = $_GET['content3'];
+      file_put_contents('root.txt', $content3, FILE_APPEND);
     }
     if (file_exists('root.txt')) {
         $content3 = file_get_contents('root.txt');
@@ -39,7 +45,7 @@
 
   <form action="tree.php">
     <p id="leaf">
-        Then send them down into the darkness
+        Enter Leaf Content
       </p>
     <textarea name="content" rows="8" cols="80"></textarea>
     <script src="tree.js"></script>
@@ -57,7 +63,7 @@
 
   <form action="tree.php">
     <p id="trunk">
-        Hard
+        Enter Trunk Content
       </p>
     <textarea name="content2" rows="8" cols="80"></textarea>
     <script src="tree.js"></script>
@@ -69,7 +75,7 @@
     ?>
     </form>
 
-  <div id="content">
+  <div id="content2">
     <?php echo $safe_content2; ?>
   </div>
 
