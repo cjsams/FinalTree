@@ -22,8 +22,7 @@
         $content = '(no content)';
     }
 
-    $safe_content = htmlentities($content);
-    echo $safe_content;
+    /*$safe_content = htmlentities($content);*/
     ?>
 
   <form id"treetop" action="tree.php" method="post">
