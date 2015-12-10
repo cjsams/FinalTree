@@ -48,7 +48,6 @@
         Enter Leaf Content
       </p>
     <textarea name="content" rows="8" cols="80"></textarea>
-    <script src="tree.js"></script>
     <input type="submit" value="Save">
     <?php
 
@@ -93,7 +92,7 @@
     <?php echo $safe_content3; ?>
   </div>
 
-
+    <script src="tree.js"></script>
 
   </body>
 
