@@ -28,7 +28,12 @@ textarea {
 	font-size: 14px;
 	line-height: 1.6em;
 }
-
+div{
+  width: 100%;
+	padding: 25px;
+	font-size: 14px;
+	line-height: 1.6em;
+}
 /* Mobile */
 #page {
 	width: 100%;

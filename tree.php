@@ -33,7 +33,7 @@
     <?php
 
     $safe_content = htmlentities($content);
-    $content = "</$content>\n";
+    $content = "\n";
 
     ?>
     </form>
