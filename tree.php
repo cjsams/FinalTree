@@ -8,7 +8,7 @@
     </head>
 
     <body>
-
+      <h1 id=title>Forever Growing Tree</h1>
       <?php
 
       if (isset($_GET['content'])) {
