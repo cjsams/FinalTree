@@ -31,7 +31,7 @@
     <input type="submit" value="Save">
     <?php
 
-    $safe_content = htmlentities($content '/n');
+    $safe_content = htmlentities($content);
 
     ?>
     </form>
