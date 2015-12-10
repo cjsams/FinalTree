@@ -11,15 +11,15 @@
 
       <?php
 
-      if (isset($_GET['leaf'])) {
-        $content = $_GET['leaf'];
-        file_put_contents('leaf.txt', $leaf, FILE_APPEND);
+      if (isset($_GET['content'])) {
+        $content = $_GET['content'];
+        file_put_contents('tree.txt', $content, FILE_APPEND);
     }
 
-    if (file_exists('leaf.txt')) {
-        $leaf = file_get_contents('leaf.txt');
+    if (file_exists('tree.txt')) {
+        $content = file_get_contents('tree.txt');
     } else {
-        $leaf = '(no content)';
+        $content = '(no content)';
     }
     ?>
 
@@ -32,13 +32,13 @@
     <input type="submit" value="Save">
     <?php
 
-    $safe_leaft = htmlentities($leaf);
+    $safe_content = htmlentities($content);
 
     ?>
     </form>
 
   <div id="content">
-    <?php echo $safe_leaf; ?>
+    <?php echo $safe_content; ?>
   </div>
 
 
