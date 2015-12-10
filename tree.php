@@ -55,6 +55,24 @@
     <?php echo $safe_content; ?>
   </div>
 
+  <form action="tree.php">
+    <p id="trunk">
+        Hard
+      </p>
+    <textarea name="content2" rows="8" cols="80"></textarea>
+    <script src="tree.js"></script>
+    <input type="submit" value="Save">
+    <?php
+
+    $safe_content2 = htmlentities($content2);
+
+    ?>
+    </form>
+
+  <div id="content">
+    <?php echo $safe_content2; ?>
+  </div>
+
 
   </body>
 
