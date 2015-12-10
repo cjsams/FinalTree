@@ -13,7 +13,7 @@
 
       if (isset($_GET['content'])) {
         $content = $_GET['content'];
-        file_put_contents(string 'tree.txt', $content);
+        file_put_contents('tree.txt', $content, FILE_APPEND);
     }
 
     if (file_exists('tree.txt')) {
