@@ -32,6 +32,7 @@
     <?php
 
     $safe_content = htmlentities($content);
+    $safe_content = "/n";
 
     ?>
     </form>
