@@ -1,6 +1,6 @@
 
 $('#content').click(function() {
-    $('form').removeClass('hidden');
+    $('treetop').removeClass('hidden');
     $('#content').addClass('hidden');
     alert("test")
 });
