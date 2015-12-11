@@ -5,7 +5,8 @@ document.getElementById("leaf2").style.color = "green";
 document.getElementById("trunk2").style.color = "BurlyWood";
 document.getElementById("root2").style.color = "brown";
 
-$(document).ready(function()
+$.noConflict();
+jQuery( document ).ready(function()
 {
 
     $('#leaf2').each(function() {
