@@ -5,7 +5,7 @@ document.getElementById("leaf2").style.color = "green";
 document.getElementById("trunk2").style.color = "BurlyWood";
 document.getElementById("root2").style.color = "brown";
 
-$.noConflict();
+
 jQuery( document ).ready(function()
 {
 
