@@ -8,7 +8,7 @@
     </head>
 
     <body>
-      <h1 id=title>Forever Growing Tree</h1>
+      <h1 id=title>The Forever Growing Tree</h1>
       <?php
 
       if (isset($_GET['content'])) {
@@ -45,7 +45,7 @@
 
   <form action="tree.php">
     <p id="leaf">
-        Enter Leaf Content
+        What would a tee leaf say?
       </p>
     <textarea name="content" rows="35" cols="80"></textarea>
     <input type="submit" value="Save">
@@ -57,7 +57,7 @@
     </form>
     <form action="tree.php">
       <p id="trunk">
-          Enter Trunk Content
+          What tree trunk a leaf say?
         </p>
       <textarea name="content2" rows="20" cols="80"></textarea>
       <input type="submit" value="Save">
@@ -69,7 +69,7 @@
       </form>
     <form action="tree.php">
       <p id="root">
-          Enter Root Content
+          What tree a root say?
         </p>
       <textarea name="content3" rows="45" cols="80"></textarea>
       <input type="submit" value="Save">
