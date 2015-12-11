@@ -45,7 +45,7 @@
 
   <form action="tree.php">
     <p id="leaf">
-        What would a tee leaf say?
+        What would a tree leaf say?
       </p>
     <textarea name="content" rows="35" cols="80"></textarea>
     <input type="submit" value="Save">
@@ -57,7 +57,7 @@
     </form>
     <form action="tree.php">
       <p id="trunk">
-          What tree trunk a leaf say?
+          What would a tree trunk say?
         </p>
       <textarea name="content2" rows="20" cols="80"></textarea>
       <input type="submit" value="Save">
@@ -69,7 +69,7 @@
       </form>
     <form action="tree.php">
       <p id="root">
-          What tree a root say?
+          What would a tree root say?
         </p>
       <textarea name="content3" rows="45" cols="80"></textarea>
       <input type="submit" value="Save">
